@@ -1,0 +1,95 @@
+.drinks-container {
+    width: 790px;
+}
+
+.order {
+    text-align: center;
+    padding: 30px 30px 10px;
+}
+
+.shelf {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.glass {
+    width: 130px;
+    height: 185px;
+    flex-shrink: 3;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    background-size: 200% 200%;
+    transition: background-position 1000ms;
+}
+
+.glass h5 {
+    padding-top: 30px;
+    text-align: center;
+    height: 78px;
+}
+
+.price {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pink {
+    background-image: linear-gradient(
+        to top,
+        #6b2833 0%,
+        #f8718a 50%,
+        transparent 50%
+    );
+}
+
+.orange {
+    background-image: linear-gradient(
+        to top,
+        #ff6514 0%,
+        #fff946 50%,
+        transparent 50%
+    );
+}
+
+.blue {
+    background-image: linear-gradient(
+        to top,
+        #003fff 0%,
+        #00e5ff 50%,
+        transparent 50%
+    );
+}
+
+.green {
+    background-image: linear-gradient(
+        to top,
+        #059200 0%,
+        #a2ff94 50%,
+        transparent 50%
+    );
+}
+
+.coffee {
+    background-image: linear-gradient(
+        to top,
+        #8c2b00 0%,
+        #faf0ac 50%,
+        transparent 50%
+    );
+}
+
+.red {
+    background-image: linear-gradient(
+        to top,
+        #000000 0%,
+        #f51010 50%,
+        transparent 50%
+    );
+}

@@ -5,7 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="assets/drinking_juice.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/drinks.css" />
+        <link rel="stylesheet" href="styles/orderSummary.css" />
+        <link rel="stylesheet" href="styles/orderMessage.css" />
+        <link rel="stylesheet" href="styles/mediaQueries.css" />
         <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,12 +27,13 @@
             <h1>Drink Bar</h1>
         </header>
         <main>
-            <div class="container">
+            <div class="drinks-container">
                 <h3 class="order">
-                    Click on the glasses and order your drinks
+                    Click on the glasses and pour yourself a few drinks. You
+                    deserve it!
                 </h3>
                 <div class="shelf">
-                    <div class="glass pink" level="0" price="20">
+                    <div class="glass pink" level="0" price="12">
                         <h5>Pink Lady</h5>
                         <p class="price">0$</p>
                     </div>
@@ -42,7 +47,7 @@
                     </div>
                 </div>
                 <div class="shelf">
-                    <div class="glass green" level="0" price="24">
+                    <div class="glass green" level="0" price="8">
                         <h5>Green Eyed Monster</h5>
                         <p class="price">0$</p>
                     </div>
@@ -55,6 +60,8 @@
                         <p class="price">0$</p>
                     </div>
                 </div>
+            </div>
+            <div class="result">
                 <div class="total-price">Total price: 0$</div>
                 <div class="pay">
                     <button
@@ -77,12 +84,13 @@
                 <button
                     type="button"
                     class="btn btn-light submit-btn next-order-btn"
-                    id="repeat"
+                    id="order-again"
                 >
                     Next order
                 </button>
             </div>
         </div>
+        <!--  -->
         <footer>
             Made with
             <img src="assets/heart.svg" />
@@ -105,6 +113,7 @@
                 >
             </div>
         </footer>
-        <script src="script.js"></script>
+        <script src="eventListeners.js"></script>
+        <script src="pouringDrinks.js"></script>
     </body>
 </html>

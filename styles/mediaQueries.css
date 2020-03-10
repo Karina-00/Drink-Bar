@@ -1,0 +1,54 @@
+@media screen and (max-width: 1010px) {
+    .glass {
+        width: 100px;
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .glass {
+        width: 70px;
+        height: 120px;
+    }
+    .drinks-container {
+        width: auto;
+    }
+    .price {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .glass {
+        width: 100px;
+        height: 155px;
+    }
+    main {
+        display: block !important;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .drinks-container {
+        width: 100%;
+    }
+    footer {
+        position: relative;
+    }
+    header h1 {
+        transform: rotate(-5deg);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .glass {
+        width: 70px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .final-message {
+        width: 320px;
+        left: calc(50% - 320px / 2);
+    }
+}
