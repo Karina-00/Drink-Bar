@@ -7,6 +7,7 @@ payButton.addEventListener('click', a => {
             'You haven\'t ordered anything yet <img src="assets/sad.png"> Go back and make an order! <img src="assets/heart.svg" />';
         const nextBtn = document.getElementById('order-again');
         nextBtn.innerHTML = 'Make an order';
+        nextBtn.classList.add('try-again');
         const newLayer = document.querySelector('.darken-background');
         newLayer.classList.add('show');
     } else {

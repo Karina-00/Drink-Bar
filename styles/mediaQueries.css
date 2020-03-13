@@ -1,3 +1,9 @@
+@media screen and (min-height: 742px) {
+    footer {
+        position: absolute;
+    }
+}
+
 @media screen and (max-width: 1010px) {
     .glass {
         width: 100px;
@@ -50,5 +56,11 @@
     .final-message {
         width: 320px;
         left: calc(50% - 320px / 2);
+    }
+    .next-order-btn {
+        top: calc(50% - 200px / 2 + 200px);
+    }
+    .try-again {
+        top: calc(50% - 200px / 2 + 250px);
     }
 }

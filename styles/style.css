@@ -1,3 +1,12 @@
+:root {
+    --pink-color: #ffe3ef;
+    --orange-color: #ffe4e3;
+    --yellow-color: #ffebe3;
+}
+html {
+    min-height: 100%;
+    height: auto;
+}
 body {
     background-color: #f5f5dc;
 }
@@ -23,13 +32,13 @@ header {
 header h1 {
     text-align: center;
     overflow: hidden;
-    background-color: #ffe4c4;
+    background-color: var(--orange-color);
 }
 
 footer {
     text-align: center;
-    background-color: #ffe4c4;
-    position: absolute;
+    background-color: var(--orange-color);
+    position: relative;
     bottom: 0;
     width: 100%;
     color: #000000;

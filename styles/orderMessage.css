@@ -1,3 +1,5 @@
+@import 'style.css';
+
 .darken-background {
     width: 100%;
     height: 100%;
@@ -14,17 +16,22 @@
     max-width: 400px;
     left: calc(50% - 400px / 2);
     text-align: center;
-    background-color: #ffd6c4;
+    background-color: var(--pink-color);
     padding: 30px;
     font-size: 30px;
 }
 
 .next-order-btn {
-    background-color: #fff3c4 !important;
+    background-color: var(--yellow-color) !important;
+    border-color: var(--yellow-color) !important;
     position: fixed;
-    top: calc(50% - 200px / 2 + 200px);
+    top: calc(50% - 200px / 2 + 160px);
     width: 200px;
     left: calc(50% - 200px / 2);
+}
+
+.try-again {
+    top: calc(50% - 200px / 2 + 200px);
 }
 
 .show {
